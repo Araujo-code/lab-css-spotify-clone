@@ -6,85 +6,95 @@ Green: #00B172
 White: #FFF
 
 */
-nav {
-    background-color: coral;
-    height: 115px;
-    width: 100vw;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
+
+body {
+    margin: 0em;
 }
+
+nav {
+    height: 115px;
+    width: 98vw;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 nav img {
     height: 75px;
-    margin: 20px 40px;
-    position: relative;
-    display: inline-block;
 }
-nav ul {
-    position: absolute;
-    display: inline;
-    margin: 43px 0px 43px 718px;
-    padding: 0px;
-}
+
 nav li {
     list-style: none;
     display: inline;
     letter-spacing: 3px;
     font-size: 1.5em;
 }
+
 nav a {
     text-decoration: none;
     color: black;
 }
+
 header {
     background-image: url(../images/landing.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
     height: 1200px;
-    position: absolute;
     left: 0;
     top: 115px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    padding: 10px;
+    }
+
 header div {
     color:whitesmoke;
     text-align: center;
     font-size: 3em;
 }
+
 #spotify {
-    display: block;
-    background-color: teal;
+    background-color: whitesmoke;
     width: 100vw;
-    height: 800px;
-    position: absolute;
-    top: 1315px;
-    left: 0;
-    
+    height: 600px; 
 }
-section h1{
-    text-align: center;
-    font-size: 3em;
-    margin: 80px 0px 100px 0px;
+
+#spotify h1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
-article {
-    display: inline-block;
-    width: 30%;
-    font-size: 1.5em;
-    text-align: center;
-}
-article img {
-    height: 200px;
-    position: relative;
+
+div {
     display: inline-block;
 }
 
+div img {
+    height: 200px;
+}
+
+
 #final {
     width: 100vw;
-    height: 800px;
-    position: absolute;
-    top: 2115px;
+    height: 600px;
+    background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+    
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#app-image {
+    height: 500px;
 }
